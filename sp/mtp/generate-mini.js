@@ -17,7 +17,7 @@ var autos = "off";
 function auto() {
         if (autos == "off") {
                 autos = "on";
-                document.getElementById("autobox").style.background = "#0CDB58";
+                document.getElementById("autobox").style.background = "#00D135";
                 document.getElementById("autobox").value = "autoplay is on";
         } else if (autos == "on") {
                 autos = "off";
