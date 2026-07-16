@@ -5,7 +5,9 @@ window.onload = function() {
         var count = 0;
 
         $(".box2").on("click", function() {
-                $(".box2").not(box).removeClass("show-tooltip");
+                var box = $(this);
+
+                $(".box2").removeClass("show-tooltip");
                 box.addClass("show-tooltip");
 
                 setTimeout(function() {
