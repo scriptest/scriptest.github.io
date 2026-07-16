@@ -261,8 +261,11 @@ code {
 }
 
 @media (max-width: 504px) {
+    body {
+        overflow-y: auto;
+    }
+
     #cell {
-        overflow: hidden;
         position: absolute;
         top: 50%;
         left: 50%;
