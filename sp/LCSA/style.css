@@ -111,6 +111,17 @@ a {
     font-size: 0.9em;
 }
 
+.box2:hover,
+.box2.show-tooltip {
+    position: relative;
+    z-index: 9998;
+}
+
+.tooltip {
+    z-index: 9999;
+    opacity: 1;
+}
+
 .c1box {
     position: absolute;
     z-index: 1;
